@@ -11202,3 +11202,7 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.table {
+  border: 1px solid;
+}
