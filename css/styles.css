@@ -7192,6 +7192,19 @@ textarea.form-control-lg {
 .shadow-none {
   box-shadow: none !important;
 }
+/**/
+.shadow-white {
+  box-shadow: 0rem 0rem 2rem rgba(255, 255, 255, 0.3),
+  -3.5rem 0rem 0rem -2.5rem #64a19d;
+
+}
+
+.spaced {
+  word-spacing: normal;
+}
+
+
+
 
 .position-static {
   position: static !important;
@@ -8250,6 +8263,11 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-white-75 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -8304,6 +8322,10 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-lightsmoke {
+  background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .bg-dark {
@@ -11203,6 +11225,8 @@ body {
   padding: 5rem 0;
 }
 
-.table {
-  border: 1px solid;
+.responsive {
+  width: 31%;
+  padding: 0.5rem;
+  height: auto;
 }
