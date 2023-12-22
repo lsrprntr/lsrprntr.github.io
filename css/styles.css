@@ -7312,7 +7312,7 @@ textarea.form-control-lg {
 }
 
 .border {
-  border: 0.4rem inset var(--bs-gray-600) !important;
+  border: 0.2rem inset var(--bs-gray-600) !important;
 }
 
 .border-0 {
