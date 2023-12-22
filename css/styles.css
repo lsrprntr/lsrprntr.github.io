@@ -261,6 +261,29 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+.alternatelink {
+  --bs-text-opacity: 1;
+  color: white !important;
+  text-decoration: none;
+}
+
+a.alternatelink:hover {
+  color: var(--bs-link-hover-color) !important;
+  text-decoration: underline;
+
+}
+
+.altlink {
+  --bs-text-opacity: 1;
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+
+a.altlink:hover {
+  color: var(--bs-link-hover-color) !important;
+  text-decoration: underline;
+}
+
 pre,
 code,
 kbd,
@@ -11194,6 +11217,10 @@ body {
 .contact-section {
   padding-top: 5rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 .contact-section .card {
   border: 0;
