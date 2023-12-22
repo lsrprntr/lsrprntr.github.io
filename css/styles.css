@@ -7287,7 +7287,7 @@ textarea.form-control-lg {
 }
 
 .border {
-  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  border: 1rem solid grey !important;
 }
 
 .border-0 {
@@ -11141,6 +11141,7 @@ body {
 
 .about-section {
   padding-top: 1rem;
+  padding-bottom: 1rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
