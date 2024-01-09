@@ -1,2 +1,8 @@
 # lsrprntr.github.io
-Personal github page
+
+
+Personal page.
+
+Pushes updates to both:
+- lsrprntr.github.io
+- samplural.com
