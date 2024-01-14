@@ -61,6 +61,7 @@ window.addEventListener('DOMContentLoaded', event => {
 	// Check cookies
 	var cookie = document.cookie;
 	if (cookie!= null && cookie != undefined){
+		console.log(document.cookie);
 		if (cookie.length>0){
 			var seenCount = parseInt(cookie.split(";")[0].split("=")[1]);
 			seenCount++;
