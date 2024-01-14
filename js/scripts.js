@@ -63,7 +63,7 @@ window.addEventListener('DOMContentLoaded', event => {
 	if (cookie!= null && cookie != undefined){
 		console.log(document.cookie);
 		if (cookie.length>0){
-			var seenCount = parseInt(cookie.split(";")[0].split("=")[1]);
+			var seenCount = parseInt(cookie.split("=")[1]);
 			seenCount++;
 		}
 		document.cookie = "visited="+seenCount+";";
