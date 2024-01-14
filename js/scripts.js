@@ -62,13 +62,13 @@ window.addEventListener('DOMContentLoaded', event => {
 	var cookie = document.cookie;
 	if (cookie!= null && cookie != undefined){
 		if (cookie.length>0){
-			var seenCount = parseInt(cookie.split("=")[1]);
+			var seenCount = parseInt(cookie.split(";")[0].split("=")[1]);
 			seenCount++;
 		}
-		document.cookie = "visited="+seenCount;
+		document.cookie = "visited="+seenCount+";";
 	}
 	else {
-		document.cookie = "visited=1";
+		document.cookie = "visited=1;";
 	}
 	
 	
