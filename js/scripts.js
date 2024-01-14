@@ -50,5 +50,36 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+	
+	// Website plugins
+	
+	/*
+	Trying to log unique visitors by checking if they have a cookie first.
+	*/
+	
+	//Psuedocode
+	// Check cookies
+	var cookie = document.cookie;
+	if (cookie!= null && cookie != undefined){
+		if (cookie.length>0){
+			var seenCount = parseInt(cookie.split("=")[1]);
+			seenCount++;
+		}
+		document.cookie = "visited="+seenCount;
+	}
+	else {
+		document.cookie = "visited=1";
+	}
+	
+	
+	
+	
+
+
+	// If cookie nothing
+	// else ++ add cookie
+	
+	
+	
 
 });
